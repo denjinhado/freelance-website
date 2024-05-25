@@ -10,6 +10,7 @@ html {
 body {
   background-color: #030714;
   color: white;
+  transition: all 0.3s;
 }
 .nav {
   text-transform: uppercase;
@@ -25,9 +26,9 @@ body {
   align-items: center;
   a {
     text-decoration: none;
-    color: white;
+    color: inherit;
     font-weight: 700;
-    font-size: 1.15em;
+    font-size: 1.25em;
   }
 }
 .logoimg {
@@ -39,10 +40,22 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin-top: 5rem;
+  margin-bottom: 10rem;
   a > img {
     width: 300px;
     height: 300px;
+  }
+  h2 {
+    font-size: 3em;
+    font-weight: 700;
+  }
+  p {
+    text-align: center;
+    font-size: 1.25em;
+    width: 40%;
+    margin: 0 auto;
   }
 }
 .projects {
@@ -51,6 +64,10 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  font-size: 2em;
+  h2 {
+    border-bottom: 1px solid #2e2e2e;
+  }
 }
 .about {
   display: grid;
@@ -62,4 +79,23 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto; */
+}
+
+.toggleMode {
+  border: none;
+  background: none;
+  filter: invert(100%);
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+  img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.lightmode {
+  background-color: #ffffff;
+  color: black;
+  transition: all 0.3s;
 }
