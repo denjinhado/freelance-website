@@ -1,45 +1,65 @@
 html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  body{
-    background-color: #030714;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #030714;
+  color: white;
+}
+.nav {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 60%;
+}
+.navbar {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  a {
+    text-decoration: none;
     color: white;
+    font-weight: 700;
+    font-size: 1.15em;
   }
-  .nav{
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 20rem 0 20rem;
+}
+.logoimg {
+  height: 100px;
+  width: 100px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  a > img {
+    width: 300px;
+    height: 300px;
   }
-  .title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
-  .projects{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-  }
-  .about{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-/*     flex-direction: row;
+}
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  /*     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 0 auto; */
-  }
+}
