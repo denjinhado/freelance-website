@@ -13,17 +13,22 @@ body {
   transition: all 0.3s;
 }
 .nav {
+  background-color: #030714;
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  width: 60%;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  top: 0%;
 }
 .navbar {
   display: flex;
   gap: 2rem;
   align-items: center;
+  margin-right: 10rem;
   a {
     text-decoration: none;
     color: inherit;
@@ -34,6 +39,7 @@ body {
 .logoimg {
   height: 100px;
   width: 100px;
+  margin-left: 10rem;
 }
 .title {
   display: flex;
