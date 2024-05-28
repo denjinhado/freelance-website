@@ -183,4 +183,7 @@ body {
     background-color: #ffffff;
     color: black;
   }
+  .toggleMode {
+    filter: invert(0%);
+  }
 }
