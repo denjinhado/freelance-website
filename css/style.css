@@ -46,9 +46,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 2rem;
   align-items: center;
   /* margin: 0 auto; */
-  margin-top: 5rem;
+  margin-top: 7rem;
   margin-bottom: 10rem;
   a > img {
     width: 300px;
@@ -76,7 +77,7 @@ body {
     border-bottom: 1px solid #2e2e2e;
   }
 }
-.gallery{
+.gallery {
   width: 50%;
 }
 .about {
@@ -84,11 +85,72 @@ body {
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 5rem auto;
+  width: 60%;
   /*     flex-direction: row;
     justify-content: center;
     align-items: center;
     margin: 0 auto; */
+}
+
+.meetus {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-bottom: 7rem;
+}
+
+.card {
+  width: 500px;
+  text-align: center;
+  align-items: center;
+  img {
+    padding: 2rem;
+    width: 350px;
+    height: 400px;
+  }
+  p {
+    width: 100%;
+    font-size: 0.5em;
+    color: #555555;
+  }
+  .card-hr {
+    width: 400px;
+  }
+}
+
+.contact {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  text-align: center;
+  background-color: #090f20;
+  padding: 2.5rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  h2 {
+    font-size: 2.5em;
+  }
+  p {
+    font-size: 1.2em;
+  }
+  button {
+    padding: 0.7rem;
+    font-size: 1.3em;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    transition: all 0.3s;
+    border: none;
+  }
+  button:hover {
+    background-color: #e9901c;
+    color: white;
+    transition: all 0.3s;
+  }
 }
 
 .toggleMode {
