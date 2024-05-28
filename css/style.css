@@ -75,6 +75,10 @@ body {
   font-size: 2em;
   h2 {
     border-bottom: 1px solid #2e2e2e;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    width: 700px;
+    text-align: center;
   }
 }
 .gallery {
@@ -86,7 +90,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 5rem auto;
-  width: 60%;
+  width: 55%;
   /*     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -96,7 +100,7 @@ body {
 .meetus {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  /* gap: 3rem; */
   margin-bottom: 7rem;
 }
 
@@ -120,7 +124,7 @@ body {
 }
 
 .contact {
-  width: 60%;
+  width: 55%;
   margin: 0 auto;
   margin-bottom: 4rem;
   text-align: center;
