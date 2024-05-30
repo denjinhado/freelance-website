@@ -86,6 +86,9 @@ body {
     width: 40%;
     margin: 0 auto;
   }
+  button{
+    width: 40rem;
+  }
 }
 .projects {
   display: flex;
@@ -177,23 +180,22 @@ body {
   p {
     font-size: 1.2em;
   }
-  button {
-    padding: 0.7rem;
-    font-size: 1.3em;
-    font-weight: 700;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1.5rem;
-    transition: all 0.3s;
-    border: none;
-  }
-  button:hover {
-    background-color: #1B1A55;
-    color: white;
-    transition: all 0.3s;
-  }
 }
-
+button {
+  padding: 0.7rem;
+  font-size: 1.3em;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  transition: all 0.3s;
+  border: none;
+}
+button:hover {
+  background-color: #1B1A55;
+  color: white;
+  transition: all 0.3s;
+}
 .toggleMode {
   border: none;
   background: none;
