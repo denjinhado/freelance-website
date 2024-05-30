@@ -115,6 +115,9 @@ body {
 justify-content: center;
 align-items: center;
 margin: 10rem;
+p{
+  
+}
 }
 .about {
   display: flex;
@@ -251,7 +254,7 @@ margin: 10rem;
     filter: invert(0%);
   }
 }
-.content-header {
+/* .content-header {
   margin: auto;
   overflow: auto;
   background: linear-gradient(
@@ -279,3 +282,4 @@ margin: 10rem;
     background-position: 0% 0%;
   }
 }
+ */
