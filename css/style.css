@@ -109,7 +109,13 @@ body {
 .gallery {
   width: 50%;
 }
-
+.wecando{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 10rem;
+}
 .about {
   display: flex;
   flex-direction: column;
@@ -128,7 +134,8 @@ body {
   padding: 1.5rem;
   h2 {
     font-size: 2.5rem;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
+    font-weight: 700; 
   }
 }
 .about-pos {
