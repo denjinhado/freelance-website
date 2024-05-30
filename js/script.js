@@ -12,3 +12,11 @@ toggleButton.addEventListener("click", () => {
     isLightMode = true;
   }
 });
+const header = document.querySelector('.nav');
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50){
+    header.classList.add('solid-nav')
+  }else{
+    header.classList.remove('solid-nav')
+  }
+})
