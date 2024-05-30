@@ -20,3 +20,6 @@ window.addEventListener('scroll', () => {
     header.classList.remove('solid-nav')
   }
 })
+ScrollReveal().reveal('.projects');
+ScrollReveal().reveal('.about');
+ScrollReveal().reveal('.contact');
