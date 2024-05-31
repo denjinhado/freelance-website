@@ -12,6 +12,15 @@ body {
   color: white;
   transition: all 0.3s;
 }
+.vid-container, video{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+z-index: -1;
+}
 .nav {
   padding: 10px 0;
   text-transform: uppercase;
@@ -257,30 +266,9 @@ p{
 }
 .content-header {
   margin: auto;
-  overflow: auto;
-  background: linear-gradient(
-    315deg,
-    rgba(7, 15, 43, 1) 3%,
-    rgba(27, 26, 85, 1) 38%,
-    rgba(83, 92, 145, 1) 68%,
-    rgba(146, 144, 195, 1) 98%
-  );
-  animation: gradient 60s ease infinite;
-  background-size: 400% 400%;
-  background-attachment: fixed;
-  border-end-start-radius: 80% 10%;
-  border-end-end-radius: 80% 10%;
+  z-index: 80;
+  overflow: hidden;
 }
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 100%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
-}
+
  
