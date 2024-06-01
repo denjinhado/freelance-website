@@ -90,7 +90,7 @@ video {
     height: 300px;
   }
   h2 {
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 700;
   }
   p {
@@ -104,7 +104,7 @@ video {
   }
 }
 p{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 .projects {
   display: flex;
