@@ -117,7 +117,13 @@ video {
   }
 }
 .gallery {
-  width: 50%;
+  width: 100%;
+}
+.carousel{
+padding: 0.2rem;
+}
+.carousel:hover{
+  
 }
 .wecando {
   display: flex;

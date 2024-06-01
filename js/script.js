@@ -23,3 +23,17 @@ window.addEventListener('scroll', () => {
 ScrollReveal().reveal('.projects');
 ScrollReveal().reveal('.about');
 ScrollReveal().reveal('.contact');
+$(document).ready(function(){
+  $('.gallery').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 0,
+    speed: 8000,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    cssEase: 'linear',
+    prevArrow: false,
+    nextArrow: false
+  });
+})
