@@ -116,24 +116,30 @@ video {
     font-weight: 700;
   }
 }
-.car-bg{
+.car-bg {
   background-color: #1b1a55;
+  justify-content: start;
   height: 40rem;
-  width: 80%;
-  border-radius: 1rem;
+  gap: 3rem;
+  width: 100%;
+  /* border-radius: 1rem; */
   padding: 1.5rem;
   z-index: -11;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+  h2 {
+    padding-top: 2rem;
+    font-size: 1.5em;
+  }
 }
 .gallery {
   width: 100%;
-  transform: translate(0%, -140%);
+  /* transform: translate(0%, -140%); */
 }
-.carousel{
-padding: 0.1rem;
-transition: .2s;
+.carousel {
+  padding: 0.1rem;
+  transition: 0.2s;
 }
 
 .wecando {
