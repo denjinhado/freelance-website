@@ -123,7 +123,8 @@ video {
 padding: 0.2rem;
 }
 .carousel:hover{
-  
+  transform: scale(1.5);
+  z-index: 4;
 }
 .wecando {
   display: flex;

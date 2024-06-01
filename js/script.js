@@ -29,7 +29,7 @@ $(document).ready(function(){
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 0,
-    speed: 8000,
+    speed: 15000,
     pauseOnHover: false,
     pauseOnFocus: false,
     cssEase: 'linear',
