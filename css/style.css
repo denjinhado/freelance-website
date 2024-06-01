@@ -8,6 +8,9 @@ html {
   box-sizing: border-box;
 }
 body {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: #030714;
   color: white;
   transition: all 0.3s;
@@ -99,6 +102,9 @@ video {
   .button {
     width: 40rem;
   }
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
 }
 .projects {
   display: flex;
