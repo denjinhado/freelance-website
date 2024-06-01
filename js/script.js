@@ -20,9 +20,9 @@ window.addEventListener('scroll', () => {
     header.classList.remove('solid-nav')
   }
 })
-ScrollReveal().reveal('.projects');
-ScrollReveal().reveal('.about');
-ScrollReveal().reveal('.contact');
+ScrollReveal().reveal('.projects', {delay:100});
+ScrollReveal().reveal('.about', {delay:100});
+ScrollReveal().reveal('.contact', {delay:100});
 $(document).ready(function(){
   $('.gallery').slick({
     slidesToShow: 3,
