@@ -109,23 +109,33 @@ video {
   font-size: 2rem;
   margin-bottom: 10rem;
   h2 {
-    border-bottom: 1px solid #2e2e2e;
     padding-bottom: 1rem;
     margin-bottom: 2rem;
-    width: 700px;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
   }
+}
+.car-bg{
+  background-color: #1b1a55;
+  height: 40rem;
+  width: 80%;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  z-index: -11;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
 }
 .gallery {
   width: 100%;
+  transform: translate(0%, -140%);
 }
 .carousel{
-padding: 0.2rem;
+padding: 0.1rem;
+transition: .2s;
 }
-.carousel:hover{
-  transform: scale(1.5);
-  z-index: 4;
-}
+
 .wecando {
   display: flex;
   flex-direction: column;
