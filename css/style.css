@@ -44,6 +44,8 @@ video {
   gap: 2rem;
   align-items: center;
   margin-right: 10rem;
+  font-size: 1.15em;
+  letter-spacing: 2px;
   a {
     text-decoration: none;
     color: inherit;
@@ -80,7 +82,7 @@ video {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 4rem;
+  gap: 2.8rem;
   align-items: center;
   /* margin: 0 auto; */
   margin-top: 9rem;
@@ -101,10 +103,11 @@ video {
   }
   .button {
     width: 40rem;
+    font-size: 1.5em;
   }
 }
-p{
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .projects {
   display: flex;
@@ -252,7 +255,7 @@ p{
 }
 .button {
   padding: 0.7rem;
-  font-size: 1.3em;
+  font-size: 1.5em;
   font-weight: 700;
   align-items: center;
   justify-content: center;
