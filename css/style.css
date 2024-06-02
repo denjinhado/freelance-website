@@ -152,14 +152,54 @@ p {
 }
 
 .wecando {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 10rem;
-  p {
-    font-size: 1.25rem;
+  display: grid;
+  grid-template-columns: 10% 70% 20%;
+  margin-bottom: 5rem;
+  height: 800px;
+  width: 900px;
+  .wecando-bg {
+    background-color: #4f4eb1;
+    height: 90%;
+    margin: auto 0;
+    box-shadow: -5px 0px 11px 3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -5px 0px 11px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -5px 0px 11px 3px rgba(0, 0, 0, 0.75);
+    p {
+      opacity: 0;
+    }
+  }
+  .wecando-img {
+    height: 100%;
+    width: 100%;
+    align-content: center;
     text-align: center;
+    background-color: black;
+    img {
+      height: 90%;
+      width: 90%;
+    }
+  }
+  .wecando-content {
+    height: 90%;
+    width: 100%;
+    margin: auto 0;
+    padding: 2rem 10px;
+    box-shadow: 5px 0px 11px 3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 0px 11px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 0px 11px 3px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    transition: 0.8s;
+    p {
+      font-size: 0.6em;
+    }
+    h2 {
+      font-size: 0.9em;
+    }
+  }
+  .wecando-content:hover {
+    width: calc(100% * 1.5); /* Incrementa el width en un 50% */
+    height: 100%;
+    font-size: calc(100% * 1.25); /* Incrementa el font-size en un 12% */
   }
 }
 .about {
