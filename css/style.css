@@ -215,6 +215,7 @@ p {
   }
   .wecando-title {
     margin: 0;
+    text-transform: uppercase;
     text-align: left;
     padding: 0;
     font-size: 7em;
@@ -232,6 +233,9 @@ p {
     align-items: start;
     justify-content: space-between;
     gap: 1rem;
+    h2 {
+      line-height: 160px;
+    }
   }
   .wecando-img {
     border-radius: 2rem;
